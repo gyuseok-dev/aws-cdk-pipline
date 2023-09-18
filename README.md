@@ -1,14 +1,14 @@
-# Welcome to your CDK TypeScript project
+# CDK TypeScript For 배포 자동화
 
-This is a blank project for CDK development with TypeScript.
+TypeScript로 CDK 개발을 통해 codepipeline을 구성할 수 있는 예제 앱입니다.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+cdk.json' 파일은 CDK 툴킷에 앱 실행 방법을 알려줍니다.
 
-## Useful commands
+## 유용한 명령어
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* `npm run build`   빌드
+* `npm run watch`   변경사항 감지 모드
+* `npm run test`    테스트 실행
+* `cdk deploy`      배포 실행
+* `cdk diff`        배포된 스택과 현재 상태를 비교
+* `cdk synth`       Cloud Formation 템플릿 생성
